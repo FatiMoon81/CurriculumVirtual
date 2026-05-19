@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fátima Luna</title>
+    <link rel="icon" type="image/x-icon" href="../IMG/favicon.png">
+    <!-- Link for FontAwesome -->
+    <script src="https://kit.fontawesome.com/aff4bda4ac.js" crossorigin="anonymous"></script>
+    <!-- Link for Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
+    <!--Link fot Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link  href="../css/resume.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../javascript/badges.js" type="text/javascript" defer></script>
+    <script src="../javascript/interaction.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+
+<div class="sidenav">
+    <h1>Fátima Adriana</h1>
+    <h1>Luna Delgado</h1>
+    <figure>
+        <img src="../img/Avatar.png" alt="" style="width: 75%;">
+        <figcaption>&#9400 Modified from Tris of Sketchify Education</figcaption>
+    </figure>
+    <p><span><i class="fa-solid fa-location-dot fa-fw"></i></span>Juárez, Chihuahua, México</p>
+    <p><span><i class="fa-solid fa-envelope fa-fw"></i></span>fa.lunad01@gmail.com</p>
+    <p><span><i class="fa-solid fa-phone fa-fw"></i></span>(656) 138-95-25</p>
+    <div id="content-nav">
+        <a class="flex items-center gap-3 active" href="#about">
+            <div class="bg-purple h-1"></div>
+            About
+        </a>
+        <a class="flex items-center gap-3" href="#education">
+            <div class="bg-blue h-1"></div>
+            Education
+        </a>
+        <a class="flex items-center gap-3" href="#experience">
+            <div class="bg-pink h-1"></div>
+            Experience
+        </a>
+        <a class="flex items-center gap-3" href="#skills">
+            <div class="bg-purple h-1"></div>
+            Skills
+        </a>
+        <a class="flex items-center gap-3" href="#languages">
+            <div class="bg-blue h-1"></div>
+            Languages
+        </a>
+        <a class="flex items-center gap-3" href="#aptitudes">
+            <div class="bg-pink h-1"></div>
+            Aptitudes
+        </a>
+    </div>
+</br>
+    <a id="viewfile" href="/DOCS/FátimaLunaResume.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="fa-regular fa-file-pdf"></i>
+        View the PDF resume
+    </a>
+</div>
+
+<div class="modal fade" id="modalJuju" tabindex="-1" aria-labelledby="modalJujuLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalJujuLabel">Tokyo High</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../IMG/Jujutsu_High.png" class="card-img-top" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalDiscos" tabindex="-1" aria-labelledby="modalDiscosLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalDiscosLabel">Tienda de discos</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../IMG/TiendaDiscos.png" class="card-img-top" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalUbica" tabindex="-1" aria-labelledby="modalUbicaLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalUbicaLabel">Ubicatec</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../IMG/UbicaTec.png" class="card-img-top" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+    <div class="topic purple">
+        <h2 id="about">About</h2>
+        <hr class="purple">
+        <p>I am a Computer Systems Engineering student at ITCJ. 
+        I'm very interested in front-end development and cybersecurity. 
+        I'm looking for work experience where I can apply and expand 
+        my knowledge.</p>
+    </div>
+    <div class="topic blue">
+        <h2 id="education">Education</h2>
+        <hr class="blue">
+        <dl class="row">
+            <dt class="col-sm-3">JAN 2022 - MAY 2026</dt>
+            <dd class="col-sm-9">
+                <div class="desc-title">
+                    <b>Computer Systems Engineering</b>
+                    </br>
+                    <i>Instituto Tecnológico de Ciudad Juárez</i>
+                </div>
+                <p>9<sup>th</sup> semester, in progress</p>
+            </dd>
+        </dl>
+        <h3>Relevant school projects</h3>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <button type="button" class="btn btn-link" data-bs-toggle="modal" 
+                    data-bs-target="#modalJuju">
+                        <img src="../IMG/Jujutsu_High.png" class="card-img-top" alt="">
+                    </button>
+                    <div class="card-body">
+                        <h5 class="card-title">Tokyo High</h5>
+                        <p class="card-text">CRUD desktop application for school administration.</p>
+                        <badge-csharp></badge-csharp>
+                        <badge-vs></badge-vs>
+                        <badge-mysql></badge-mysql>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <button type="button" class="btn btn-link" data-bs-toggle="modal" 
+                    data-bs-target="#modalDiscos">
+                        <img src="../IMG/TiendaDiscos.png" class="card-img-top" alt="">
+                    </button>
+                    <div class="card-body">
+                        <h5 class="card-title">Music store</h5>
+                        <p class="card-text">CRUD desktop application for a music store to keep 
+                                records of inventory and sales.</p>
+                        <badge-csharp></badge-csharp>
+                        <badge-vs></badge-vs>
+                        <badge-postgres></badge-postgres>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <button type="button" class="btn btn-link" data-bs-toggle="modal" 
+                    data-bs-target="#modalUbica">
+                        <img src="../IMG/UbicaTec.png" class="card-img-top" alt="">
+                    </button>
+                    <div class="card-body">
+                        <h5 class="card-title">UbicaTec</h5>
+                        <p class="card-text">
+                            Web page to explore a map of ITCJ Campus I.
+                            <span id="points">...</span>
+                            <span id="moretxtUT">
+                                The page allows to search for school departments and facilities,
+                                and shows their location and info. It has different layers that display 
+                                the interior of the buildings and both floor levels. The figures where added
+                                to the map from GeoJSON files.
+                            </span>
+                        </p>
+                        <span>
+                            <button id="moreButton" type="button" class="btn btn-link" onclick="toggleText()">Show More</button>
+                        </span>
+                        <br\>
+                        <badge-html></badge-html>
+                        <badge-css></badge-css>
+                        <badge-js></badge-js>
+                        <badge-php></badge-php>
+                        <badge-leaflet></badge-leaflet>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="topic pink">
+        <h2 id="experience">Experience</h2>
+        <hr class="pink">
+        <dl class="row">
+            <dt class="col-sm-3">MAY 2018 - OCT 2018</dt>
+            <dd class="col-sm-9">
+                <div class="desc-title">
+                    <b>Course Instructor</b>
+                    <i>Kapek Club de Robótica</i>
+                </div>
+                <p>I would teach beginner robotics to kids aged 6-12, using Lego 
+                    Robotics sets. They would be presented with a problem, and I 
+                    would orient them in building and programming a robot to 
+                    resolve it.</p>
+            </dd>
+            <dt class="col-sm-3">JUL 2021 - FEB 2022</dt>
+            <dd class="col-sm-9">
+                <div class="desc-title">
+                    <b>Bilingual Agent</b>
+                    <i>Teleperformance</i>
+                </div>
+                <p>I was a customer service agent at a call center for an 
+                    electricity company in the United States. The calls would be 
+                    mostly in English, but also in Spanish. I would take payments, 
+                    answer bill questions and complaints, handle payment plans, 
+                    among other things.</p>
+            </dd>
+        </dl>
+    </div>
+    <div class="topic purple">
+        <h2 id="skills">Skills</h2>
+    <hr class="purple">
+    <h4><i class="bi bi-braces"></i>Programming languages</h4>
+        <badge-csharp></badge-csharp>
+        <badge-java></badge-java>
+        <badge-js></badge-js>
+    <h4><i class="bi bi-code-slash"></i>Front-end</h4>
+        <badge-html></badge-html>
+        <badge-css></badge-css>
+        <badge-bs></badge-bs>
+    <h4><i class="bi bi-database-fill"></i>Database management</h4>
+        <badge-mysql></badge-mysql>
+        <badge-postgres></badge-postgres>
+    <h4><i class="bi bi-tools"></i>Tools</h4>
+        <badge-vscode></badge-vscode>
+        <badge-vs></badge-vs>
+        <badge-netbeans></badge-netbeans>
+        <badge-xampp></badge-xampp>
+        <badge-pgadmin></badge-pgadmin>
+        <badge-leaflet></badge-leaflet>
+        <badge-github></badge-github>
+    </div>
+    <div class="topic blue">
+        <h2 id="languages">Languages</h2>
+        <hr class="blue">
+        <h4><i class="bi bi-chat-text-fill"></i>Spanish</h4>
+            <p>
+                <img src="../img/BanderaMexico.jpeg" class="lan-image" alt="">
+                Native speaker
+            </p>
+        <h4><i class="bi bi-chat-text-fill"></i>English</h4>
+            <p>
+                <img src="../img/TOEFL_ITP_Logo.png" class="lan-image" alt="">
+                TOEFL ITP C1 Level
+            </p>
+    </div>
+    <div class="topic pink">
+        <h2 id="aptitudes">Aptitudes</h2>
+    <hr class="pink">
+        <ul>
+            <li><i class="bi bi-cpu"></i>Passion for computer science</li>
+            <li><i class="bi bi-lightbulb-fill"></i></i>Creativity</li>
+            <li><i class="bi bi-search"></i>Attention to detail</li>
+            <li><i class="bi bi-person-arms-up"></i>Eager to learn</li>
+        </ul> 
+    </div>
+</div>   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html> 

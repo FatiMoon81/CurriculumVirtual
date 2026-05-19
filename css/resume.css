@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sidenav {
+  height: 100vh;
+  width: 30%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding: 3%;
+  color: whitesmoke;
+}
+.sidenav h1 {
+  font-size: clamp(2rem, 5vw, 2rem);
+  margin: 0;
+}
+.sidenav figcaption {
+  font-size: clamp(0.8rem, 1vw, 0.9rem);
+  color: rgba(245, 245, 245, 0.604);
+}
+.sidenav i {
+  font-size: 1em;
+}
+.sidenav p {
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
+}
+.sidenav span {
+  padding-right: 1em;
+}
+#content-nav > a {
+  color: rgba(245, 245, 245, 0.604);
+  text-decoration: none;
+  font-size: clamp(1rem, 2vw, 1.4rem);
+}
+#content-nav > a > div{
+  background-color: rgba(245, 245, 245, 0.604);
+  width: 2em;
+  /*height: 2px;*/
+}
+#content-nav > a.active, #content-nav > a:hover {
+  color: whitesmoke;
+}
+#content-nav > a.active > div.bg-purple, #content-nav > a:hover > div.bg-purple {
+  background-color: #6f2fa0;
+  width: 3em;
+}
+#content-nav > a.active > div.bg-blue, #content-nav > a:hover > div.bg-blue {
+  background-color: #4494a2;
+  width: 3em;
+}
+#content-nav > a.active > div.bg-pink, #content-nav > a:hover > div.bg-pink {
+  background-color: #aa5881;
+  width: 3em;
+}
+#viewfile {
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: clamp(0.75rem, 1.5vw, 1rem);
+  background-color: #aa5881;
+  border-radius: 3px;
+  color: whitesmoke;
+}
+.main {
+  margin-left: 30%;
+  height: 100vh;
+  padding: 3%;
+  background-color: white;
+}
+.main p, li, span.badge {
+  font-size: clamp(1rem, 2vw, 1.4rem);
+  text-align: justify;
+}
+.main h2 {
+  font-size: 30px;
+}
+.topic {
+  padding: 2%;
+  border-radius: 3%;
+}
+.topic b, i, h3 {
+  font-size: clamp(1rem, 3vw, 1.6rem);
+  
+}
+.topic dt {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+}
+h3 {
+  font-size: 1.5vw;
+}
+hr.purple {
+  border: 3px solid #6f2fa0;
+  opacity: 1.0;
+}
+hr.blue {
+  border: 3px solid #4494a2;
+  opacity: 1.0;
+}
+hr.pink {
+  border: 3px solid #aa5881;
+  opacity: 1.0;
+}
+div.purple:hover {
+  background-color: #6f2fa084;
+}
+div.blue:hover {
+  background-color: #4494a282;
+}
+div.pink:hover {
+  background-color: #aa588183;
+}
+div.purple:hover > h4 {
+  color: #4c1d70;
+}
+div.blue:hover > h4 {
+  color: #205862;
+}
+#moretxtUT {
+  display: none;
+}
+div.desc-title {
+  line-height: 1.0;
+  padding-bottom: 0.5rem;
+}
+div.col {
+  padding: 0;
+}
+div.card {
+  margin: clamp(0.5rem, 0.5vw, 1rem);
+}
+.badge {
+  margin-bottom: 0.5em;
+}
+.badge img {
+  display: inline;
+  height: 1.5em;
+}
+li{
+  font-weight: bold;
+}
+div.purple > h4 {
+  color: #6f2fa0;
+}
+div.blue > h4 {
+  color: #4494a2;
+}
+i.bi {
+  font-size: 1em;
+}
+h4 > i {
+  margin-right: 0.5em;
+}
+li > i {
+  margin-right: 1em;
+  color: #aa5881;
+}
+.lan-image {
+  display: inline;
+  height: 1.5em;
+}
+
