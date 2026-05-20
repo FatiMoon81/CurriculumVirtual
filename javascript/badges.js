@@ -58,6 +58,26 @@ class CSSBadge extends HTMLElement {
 
 customElements.define('badge-css', CSSBadge);
 
+class ExcelBadge extends HTMLElement {
+  constructor() {
+    super();
+  }
+
+  connectedCallback() {
+    this.innerHTML = `
+        <style>
+        @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css");
+        </style>
+        <span class="badge rounded-pill" style="background-color: #1cae2b;">
+            <img src="../img/Excel_Logo.png" alt="">
+            Excel
+        </span>
+    `;
+  }
+}
+
+customElements.define('badge-excel', ExcelBadge);
+
 class GitHubBadge extends HTMLElement {
   constructor() {
     super();
