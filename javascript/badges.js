@@ -309,7 +309,7 @@ class VSCodeBadge extends HTMLElement {
         @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css");
         </style>
         <span class="badge rounded-pill" style="background-color: #5fbdfd;">
-            <img src="../IMG/VSCode_Logo.png" alt="">
+            <img src="../img/VSCode_Logo.png" alt="">
             VS Code
         </span>
     `;
