@@ -8,7 +8,7 @@ class BootstrapBadge extends HTMLElement {
         <style>
         @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css");
         </style>
-        <span class="badge rounded-pill" style="background-color: #bc76fd;">
+        <span class="badge rounded-pill" style="background-color: #a64bfc;">
           <img src="../img/bootstrap_logo.png" alt="">  
           <span>Bootstrap</span> 
         </span>
@@ -128,7 +128,7 @@ class JavaBadge extends HTMLElement {
         <style>
         @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css");
         </style>
-        <span class="badge rounded-pill" style="background-color: #a0b8fb;">
+        <span class="badge rounded-pill" style="background-color: #7b9efd;">
             <img src="../img/JavaLogo.png" alt="">
             Java
         </span>
@@ -148,7 +148,7 @@ class JSBadge extends HTMLElement {
         <style>
         @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css");
       </style>
-        <span class="badge rounded-pill" style="background-color: #ffe16b;">
+        <span class="badge rounded-pill" style="background-color: #fad646;">
             <img src="../img/JS_Logo.png" alt="">
             JavaScript
         </span>
@@ -168,7 +168,7 @@ class LeafletBadge extends HTMLElement {
         <style>
         @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css");
         </style>
-        <span class="badge rounded-pill" style="background-color: #d4ff7e;">
+        <span class="badge rounded-pill" style="background-color: #a2c855;">
             <img src="../img/Leaflet_Logo.png" alt="">
             Leaflet
         </span>
@@ -188,7 +188,7 @@ class MySQLBadge extends HTMLElement {
         <style>
         @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css");
         </style>
-        <span class="badge rounded-pill" style="background-color: #e1c361;">
+        <span class="badge rounded-pill" style="background-color: #ffb43c;">
             <img src="../img/MySQL_Logo.png" alt="">
             MySQL
         </span>
