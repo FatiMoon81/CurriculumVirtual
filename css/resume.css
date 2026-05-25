@@ -72,6 +72,44 @@ body {
   border-radius: 3px;
   color: whitesmoke;
 }
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+div.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.911);
+}
+div.modal-content {
+  position: absolute;
+}
+#imgContainerModal {
+  height: 80vh;
+  width: auto;
+}
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+.caption-container {
+  text-align: center;
+  padding: 2px 16px;
+}
 .main {
   margin-left: 30%;
   height: 100vh;
@@ -138,6 +176,9 @@ div.col {
 }
 div.card {
   margin: clamp(0.5rem, 0.5vw, 1rem);
+}
+img.card-img-top {
+  cursor: zoom-in;
 }
 .badge {
   margin-bottom: 0.5em;
